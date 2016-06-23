@@ -13,6 +13,6 @@ input_dir=`$SCA_SERVICE_DIR/jq -r '.input_dir' config.json`
 rm -f pipe #incase restarting
 
 mkfifo pipe
-tar -cz $input_dir > pipe &
+nohup tar -cz $input_dir > pipe &
 
 echo "[]" > products.json
