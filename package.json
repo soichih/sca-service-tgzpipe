@@ -1,0 +1,15 @@
+{
+  "name": "sca-service-tgzpipe",
+  "version": "1.0.0",
+  "description": "SCA service to create a named pipe and feed .tar.gz-ed content of local directory",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "run.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soichih/sca-service-tgzpipe.git"
+  },
+  "author": "Soichi Hayashi <hayashis@iu.edu>",
+  "license": "MIT"
+}
